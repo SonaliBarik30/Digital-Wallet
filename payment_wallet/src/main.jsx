@@ -1,13 +1,8 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import Login from './Components/Login.jsx'
+import React from 'react';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-    <Login> </Login>
-    <Registe> </Registe>
-  </StrictMode>,
-)
+const Welcome = (props) => {
+  return <h2>Welcome, {props.name}!</h2>;
+};
+
+export default Welcome;
+

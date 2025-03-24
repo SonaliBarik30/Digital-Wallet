@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function Welcome=(props)=> {
-  return (
-    <h2>Welcome,{props.name}</h2>
-  )
-}
+const Welcome = (props) => {
+  return <h2>Welcome, {props.name}!</h2>;
+};
 
-export default Welcome
+export default Welcome;
